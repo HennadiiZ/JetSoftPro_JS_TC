@@ -65,7 +65,7 @@ console.log(Math.min.apply(Math, [1, 2, 93, 4, 10]))
 
 //1st version
 function displayCarDetails(ownerName){
-    //return `${this.registrationNumber} ,${this.brand}, ${this.color}`
+    
     console.log(`number: ${this.registrationNumber} , brand: ${this.brand}, color: ${this.color}`)
 }
 const ivan = { registrationNumber: 'AA77C12', brand: 'TOYOTA', color: 'black'}
